@@ -1,16 +1,5 @@
-/* Empty. Add your own CSS if you like */
-
-
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-  background-color: #272632 !important;
-}
-body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
-}
 .footer {
   position: absolute;
   bottom: 0; /*Using position absolute, forces footer stay at the bottom of the page */
@@ -18,9 +7,42 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
+body{
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #330033 !important;
+    height: 100vh !important;
+}
 
-/* Custom page CSS
--------------------------------------------------- */
-li {
-   cursor: pointer; /*This indicates a link. Typically using the image of a pointing hand. */
+.container{
+    width: 5vh !important;
+}
+
+input{ 
+    margin: auto !important;
+    -webkit-appearance: slider-vertical !important;
+    position: relative !important;
+    overflow: hidden !important;
+    height: 50vh !important;
+    width: 5vh !important;
+    cursor: pointer !important;
+    border-radius: 50px !important;
+}
+
+::-webkit-slider-runnable-track {
+    height: 80% !important;
+    width: 10vh !important;
+    background: #ddd !important;
+}
+
+::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 10vh !important;
+    height: 60px !important;
+    background: #ddd !important;
+    box-shadow: 0 68vh 0 68vh dodgerblue !important;
+    border: 2px solid #999 !important;
 }

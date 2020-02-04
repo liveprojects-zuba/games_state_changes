@@ -14,6 +14,5 @@
                     controller: 'eventsUpdateCtrl as vm',
                     cache: false
                 });
-            $urlRouterProvider.otherwise('/events_list');
         });
 })();

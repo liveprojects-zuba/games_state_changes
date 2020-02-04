@@ -15,6 +15,5 @@
                     params: { 'selected': 0 },
                     controller: 'eventsDetailCtrl as vm'
                 })
-            $urlRouterProvider.otherwise('/events_list');
         });
 })();

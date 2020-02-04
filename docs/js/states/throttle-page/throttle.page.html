@@ -1,0 +1,16 @@
+<uiview>
+    <div>
+        <h1 class="pageHeading">Throttle Page</h1>
+    </div>
+
+    <div class="container">
+        <input id="triggerNum" ng-model="vm.throttle" ng-change="vm.onChange()" type="range" min="0" max="100" value="0">
+    </div>
+
+    <footer class="footer">
+        <!--this is the button that leads to the previous page-->
+        <button type="button" class="btn btn-primary btn-lg btn-block" style="border-radius: 0;" ng-click="vm.goBack()">Back</button>
+        <!--this is the button that leads to the next page-->
+        <button type="button" class="btn btn-primary btn-lg btn-block" style="border-radius: 0;" ng-click="vm.goNext()">Next</button>
+    </footer>
+</uiview>

@@ -8,7 +8,9 @@
     'eventsjs',  // ADDED our events module
     'eventUpdateState',// ADDED our update page(state)
     'eventsListState', // ADDED our list page(state)
-    'eventsDetailState' // ADDED our detail page(state)
+    'eventsDetailState', // ADDED our detail page(state)
+    'welcomePageState', //ADDED our welcome page(state)
+    'throttlePageState' //ADDED our throttle page(state)
   ])
 
     .run(function ($state, $rootScope) {
@@ -17,7 +19,7 @@
         
         event.preventDefault();
 
-        $state.get('events_list').error = { code: 123, descriptions: 'Exception stack trace' }
+        //$state.get('welcome_page').error = { code: 123, descriptions: 'Exception stack trace' }
         return $state.go('events_list');
       });
 

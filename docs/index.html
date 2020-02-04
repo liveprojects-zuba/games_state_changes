@@ -10,7 +10,7 @@
 
     <!-- SPWA Styling -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- angularjs js -->
     <script src="lib/angular/angular.js"></script>
@@ -31,18 +31,19 @@
     <script src="js/states/event-list/events.list.module.js"></script>
     <script src="js/states/event-update/events.update.module.js"></script>
     <script src="js/states/event-detail/events.detail.module.js"></script>
+    <script src="js/states/welcome-page/welcome.page.module.js"></script>
+    <script src="js/states/throttle-page/throttle.page.module.js"></script>
 
     <!-- Controllers -->
-    <script src="js/states/event-list/events.list.controller.js"></script>
+    <script src="js/states/event-list/events.list.controller.js"></script></script>
     <script src="js/states/event-update/events.update.controller.js"></script>
     <script src="js/states/event-detail/events.detail.controller.js"></script>
+    <script src="js/states/welcome-page/welcome.page.controller.js"></script>
+    <script src="js/states/throttle-page/throttle.page.controller.js"></script>
 
   </head>
 
   <body ng-app="starter">
-    <nav class="navbar-light bg-light text-center">
-      <h1>Event</h1>
-    </nav>
     <ui-view></ui-view>
   </body>
 

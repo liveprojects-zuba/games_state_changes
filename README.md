@@ -1,32 +1,6 @@
-# little_list
-A simple starter AngularJS single page web-app which displays a list of canned events, and navigates to a detail view for one of them
+# Game-State Changes
 
-## Quick Start
-
-- Open the 'little_list' project with Visual Studio Code
-
-- Open the terminal using the following commands
-
-  ```
-  CTRL + Shift + `(backtick)
-  ```
-
-- Once that's done copy and paste this line of code
-
-  ```
-  sudo npm install -g http-server
-  ```
-
-  This will prompt you for your machines admin password, enter your password to complete the process; giving you a similar output as below.
-
- [![terminal-output.png](https://i.postimg.cc/L8TsBdZs/terminal-output.png)](https://postimg.cc/DSSFnM6V)
-
-- Finally enter this final line of code to get your the single page web-app up and running!
-
-- ```
-  http-server -a localhost -p 8000
-  ```
-
+This will be a prototype template that allowed us to explore the concept of Game-State change that happens when a user is changing between different states of our single paged web application (SPWA). This will allow us to create new game states when we need them in our application.
 
 ### Notes
 
